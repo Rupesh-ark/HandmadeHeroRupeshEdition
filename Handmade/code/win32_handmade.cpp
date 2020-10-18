@@ -14,5 +14,6 @@ int CALLBACK WinMain(
   LPSTR lpCmdLine,
   int nCmdShow)
 {
-  return 0;
+  MessageBoxA(0, "This is HandMadeHeroRupeshEdition", "HandMadeHero",MB_OK|MB_ICONINFORMATION);
+  return (0);
 }
